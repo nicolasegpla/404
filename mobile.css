@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.container_title .title_title {
+    font-size: 3.3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.container_img .img-404{
+    width: 250px;
+}
+.container_info-404 .info-404_title span{
+    font-size: 2rem;
+    font-weight: 400;   
+}
+.container_info-404 .info-404_title {
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+.container_message {
+    padding: 2rem;
+    margin: 0 3rem;
+}
+.container_message .message_text {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+.container_message .message_text span {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.container_switch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.switch_title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.options {
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+
+   
+
